@@ -1,0 +1,40 @@
+1)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Minsk 
+    Ввести в To Minsk
+    Ввести оставшиеся данные 
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку: 
+    The departure and arrival airports you've selected are one and the same. 
+    Please review your selection and try again.
+2)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Minsk
+    Ввести в To Moscow
+    Ввести в Depart определеную дату, в Return ничего не вводить
+    Нажать на кнопку Find
+        
+    Получить следующую ошибку: The dates you've selected don't appear to be valid.
+ 3)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Minskk
+    Ввести в To Moscow
+    Ввести оставшиеся данные
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    We can't seem to locate the point of origin you've entered. Please try again.
+4)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Minsk
+    Ввести в To Moscow
+    Ввести оставшиеся данные
+    Кликнуть на Passanger, убрать Adult и добавить 1 Child
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    Children under age 8 must travel with an adult age 16 or older.
+    Children ages 8 to 11 can travel alone but you'll need to contact Air Canada Reservations at least 48 hours before departure 
+    to purchase their ticket and request our Unaccompanied Minor service.
+    
