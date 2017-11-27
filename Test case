@@ -97,6 +97,29 @@
     Получить следующую ошибку:
     The return date should not come before the departure date. Please review your selection. 
     (Error number 10000)
+    
+  10)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать Multi-city
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести дату отправки n
+    Во втором поле ввести From Moscow
+    Во втором поле ввести To Calgary
+    Ввести дату отправки n+3
+    Выбрать Adult 2, Younts 3, Children 2, Infants 2
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    To include an infant in your booking, please call Air Canada Reservations after 
+    you've booked your flight online (this applies to international flights as well 
+    as travel to/from the U.S).
+    Complete your booking for all the children, youths and adults in your party.
+    Remember to enter zero (' 0 ') in the 'Infant' field, then
+    Call Air Canada Reservations immediately so an agent can update your booking with your infant's information. (Taxes/fees will apply)
+
+
+    
 
   
  
