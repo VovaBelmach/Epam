@@ -62,14 +62,42 @@
     
   7)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать One-way
     Ввести в From Minsk
     Ввести в To Moscow
-    Выбрать One-way
     Ввести дату отправки n-1
     Нажать на кнопку Find
     
     Получить следующую ошибку:
     This route cannot be booked online.
+  
+  8)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать Multi-city
+    Убрать одно поле
+    Ввести в From Minsk
+    Ввести в To Moscow
+    Ввести дату отправки
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    Please select a fare type from the drop-down menu located directly beneath your flights.
+  
+  9)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать Multi-city
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести дату отправки n
+    Во втором поле ввести From Moscow
+    Во втором поле ввести To Calgary
+    Ввести дату отправки n
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    The return date should not come before the departure date. Please review your selection. 
+    (Error number 10000)
+
   
  
     
