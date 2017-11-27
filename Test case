@@ -69,7 +69,7 @@
     Нажать на кнопку Find
     
     Получить следующую ошибку:
-    This route cannot be booked online.
+    The departure date/time has to be at least 2 hours before departure. Please verify your entry and try again.
   
   8)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
@@ -95,8 +95,10 @@
     Нажать на кнопку Find
     
     Получить следующую ошибку:
-    The return date should not come before the departure date. Please review your selection. 
-    (Error number 10000)
+    The departure date/time has to be at least 2 hours before departure. Please verify your entry and try again.
+    (Error number 10031) 
+    The return date/time has to be at least 2 hours before departure. Please verify your entry and try again.
+    (Error number 10036) 
     
   10)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
