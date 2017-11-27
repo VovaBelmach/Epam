@@ -39,5 +39,37 @@
     to purchase their ticket and request our Unaccompanied Minor service.
     
  5)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Minsk
+    Ввести в To Moscow
+    Ввести даты прибытия и отправки
+    Кликнуть на Passanger и добавить 9+ Children
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    You have selected more than 9 passengers. 
+ 
+ 6)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Minsk
+    Ввести в To Moscow
+    Ввести даты прибытия и отправки
+    Кликнуть на Passanger и добавить 2+ infants
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    Only one infant per adult is permitted.
+    
+  7)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Minsk
+    Ввести в To Moscow
+    Выбрать One-way
+    Ввести дату отправки n-1
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    This route cannot be booked online.
+  
  
     
