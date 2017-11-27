@@ -1,7 +1,7 @@
 1)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
-    Ввести в From Minsk 
-    Ввести в To Minsk
+    Ввести в From Calgary 
+    Ввести в To Calgary
     Ввести оставшиеся данные 
     Нажать на кнопку Find
     
@@ -10,7 +10,7 @@
     Please review your selection and try again.
 2)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
-    Ввести в From Minsk
+    Ввести в From Calgary
     Ввести в To Moscow
     Ввести в Depart определеную дату, в Return ничего не вводить
     Нажать на кнопку Find
@@ -18,7 +18,7 @@
     Получить следующую ошибку: The dates you've selected don't appear to be valid.
  3)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
-    Ввести в From Minskk
+    Ввести в From Calgaryy
     Ввести в To Moscow
     Ввести оставшиеся данные
     Нажать на кнопку Find
@@ -27,7 +27,7 @@
     We can't seem to locate the point of origin you've entered. Please try again.
 4)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
-    Ввести в From Minsk
+    Ввести в From Calgary
     Ввести в To Moscow
     Ввести оставшиеся данные
     Кликнуть на Passanger, убрать Adult и добавить 1 Child
@@ -40,7 +40,7 @@
     
  5)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
-    Ввести в From Minsk
+    Ввести в From Calgary
     Ввести в To Moscow
     Ввести даты прибытия и отправки
     Кликнуть на Passanger и добавить 9+ Children
@@ -51,7 +51,7 @@
  
  6)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
-    Ввести в From Minsk
+    Ввести в From Calgary
     Ввести в To Moscow
     Ввести даты прибытия и отправки
     Кликнуть на Passanger и добавить 2+ infants
@@ -63,7 +63,7 @@
   7)
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
     Выбрать One-way
-    Ввести в From Minsk
+    Ввести в From Calgary
     Ввести в To Moscow
     Ввести дату отправки n-1
     Нажать на кнопку Find
@@ -75,7 +75,7 @@
     Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
     Выбрать Multi-city
     Убрать одно поле
-    Ввести в From Minsk
+    Ввести в From Calgary
     Ввести в To Moscow
     Ввести дату отправки
     Нажать на кнопку Find
