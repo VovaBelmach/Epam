@@ -105,36 +105,6 @@ namespace Framework.Pages
         [FindsBy(How = How.XPath, Using = "//input[@class='search-active-magnet btn btn-primary']")]
         private IWebElement buttonSubmit;
 
-        [FindsBy(How = How.XPath, Using = "//*[@id='bookingMagnetNtpErrorId_0']/div")]
-        private IWebElement errorAirport;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='bookingMagnetPopupErrorId_0']/div")]
-        private IWebElement errorDateReturn;
-
-        [FindsBy(How = How.Id, Using = "childErrorContentId")]
-        private IWebElement errorNameAirport;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='fligthPaxErrorId_0']")]
-        private IWebElement errorPassenger;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='fligthPaxErrorId_0']")]
-        private IWebElement errorChildren;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='fligthPaxErrorId_0']")]
-        private IWebElement errorInfants;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='bookingMagnetNtpErrorId_0']/div/div")]
-        private IWebElement errorDateDeparn;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='bookingMagnetPopupErrorId_0']")]
-        private IWebElement errorFareType;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='bookingMagnetNtpErrorId_0']/div/div")]
-        private IWebElement errorMultiCity;
-
-        [FindsBy(How = How.XPath, Using = "//*[@id='bookingMagnetPopupErrorId_0']/div[1]")]
-        private IWebElement errorBookingInfants;
-
         public MainPages(IWebDriver driver)
         {
             this.driver = driver;
@@ -293,52 +263,132 @@ namespace Framework.Pages
 
         public bool GetErrorAirport(string error)
         {
-            return errorAirport.Text == error;
+            try
+            {
+                var errorAirport = driver.FindElement(By.XPath("//*[@id='bookingMagnetNtpErrorId_0']/div"));
+                return errorAirport.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorDate(string error)
         {
-            return errorDateReturn.Text == error;
+            try
+            {
+                var errorDateReturn = driver.FindElement(By.XPath("//*[@id='bookingMagnetPopupErrorId_0']/div"));
+                return errorDateReturn.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorNameAirport(string error)
         {
-            return errorNameAirport.Text == error;
+            try
+            {
+                var errorNameAirport = driver.FindElement(By.Id("childErrorContentId"));
+                return errorNameAirport.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorPassenger(string error)
         {
-            return errorPassenger.Text == error;
+            try
+            {
+                var errorPassenger = driver.FindElement(By.XPath("//*[@id='fligthPaxErrorId_0']"));
+                return errorPassenger.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorChildren(string error)
         {
-            return errorChildren.Text.Contains(error);
+            try
+            {
+                var errorChildren = driver.FindElement(By.XPath("//*[@id='fligthPaxErrorId_0']"));
+                return errorChildren.Text.Contains(error);
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorInfants(string error)
         {
-            return errorInfants.Text == error;
+            try
+            {
+                var errorInfants = driver.FindElement(By.XPath("//*[@id='fligthPaxErrorId_0']"));
+                return errorInfants.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorDateDepart(string error)
         {
-            return errorDateDeparn.Text == error;
+            try
+            {
+                var errorDateDeparn = driver.FindElement(By.XPath("//*[@id='bookingMagnetNtpErrorId_0']/div/div"));
+                return errorDateDeparn.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorFareType(string error)
         {
-            return errorFareType.Text == error;
+            try
+            {
+                var errorFareType = driver.FindElement(By.XPath("//*[@id='bookingMagnetPopupErrorId_0']"));
+                return errorFareType.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorMultiCity(string error)
         {
-            return errorMultiCity.Text == error;
+            try
+            {
+                var errorMultiCity = driver.FindElement(By.XPath("//*[@id='bookingMagnetNtpErrorId_0']/div/div"));
+                return errorMultiCity.Text == error;
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
 
         public bool GetErrorBookingInfants(string error)
         {
-            return errorBookingInfants.Text.Contains(error);
+            try
+            {
+                var errorBookingInfants = driver.FindElement(By.XPath("//*[@id='bookingMagnetPopupErrorId_0']/div[1]"));
+                return errorBookingInfants.Text.Contains(error);
+            }
+            catch (NoSuchElementException)
+            {
+                return false;
+            }
         }
     }
 }
