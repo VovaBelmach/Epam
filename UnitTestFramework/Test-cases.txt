@@ -1,0 +1,108 @@
+1)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Calgary 
+    Ввести в To Calgary
+    Ввести оставшиеся данные 
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку: 
+    The departure and arrival airports you've selected are one and the same. Please review your selection and try again.
+2)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести в Depart определеную дату, в Return ничего не вводить
+    Нажать на кнопку Find
+        
+    Получить следующую ошибку: The dates you've selected don't appear to be valid. Please make any necessary corrections and try your search again.
+ 3)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Calgaryy
+    Ввести в To Moscow
+    Ввести оставшиеся данные
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+   We can't seem to locate the point of origin you've entered. Please try again. Note: When you enter a country, state, province or city name in the search field, a choice of airports will be displayed.
+4)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести оставшиеся данные
+    Кликнуть на Passanger, убрать Adult и добавить 1 Child
+    
+    Получить следующую ошибку:
+    Children under age 8 must travel with an adult age 16 or older. Children ages 8 to 11 can travel alone but you'll need to contact Air Canada Reservations at least 48 hours before departure to purchase their ticket and request our Unaccompanied Minor service.
+    
+ 5)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести даты прибытия и отправки
+    Кликнуть на Passanger и добавить 9+ Children
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    You have selected more than 9 passengers. 
+ 
+ 6)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести даты прибытия и отправки
+    Кликнуть на Passanger и добавить 2+ infants
+    
+    Получить следующую ошибку:
+    Only one infant per adult is permitted. You have indicated that 2 children are travelling with 1 adult(s). Please make any necessary corrections before proceeding.
+    
+  7)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать One-way
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести дату отправки n-1
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    The departure date/time has to be at least 2 hours before departure. Please verify your entry and try again.
+  
+  8)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать Multi-city
+    Убрать одно поле
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести дату отправки
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    Please select a fare type from the drop-down menu located directly beneath your flights.
+  
+  9)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать Multi-city
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести дату отправки n
+    Во втором поле ввести From Moscow
+    Во втором поле ввести To Calgary
+    Ввести дату отправки n
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+    The return date/time has to be at least 2 hours before departure. Please verify your entry and try again. 
+    
+  10)
+    Перейти на сайт https://www.aircanada.com/ca/en/aco/home.html
+    Выбрать Multi-city
+    Ввести в From Calgary
+    Ввести в To Moscow
+    Ввести дату отправки n
+    Во втором поле ввести From Moscow
+    Во втором поле ввести To Calgary
+    Ввести дату отправки n+3
+    Выбрать Adult 2, Younts 3, Children 2, Infants 2
+    Нажать на кнопку Find
+    
+    Получить следующую ошибку:
+   To include an infant in your booking, please call Air Canada Reservations after you've booked your flight online (this applies to international flights as well as travel to/from the U.S).
